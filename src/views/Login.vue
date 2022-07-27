@@ -20,8 +20,8 @@
           </v-toolbar>
           <v-container>
             <v-text-field
-                v-model="email"
-                label="Email"
+                v-model="username"
+                label="Username"
             >
             </v-text-field>
             <v-text-field
@@ -35,7 +35,7 @@
               block
               depressed
               color="primary"
-              @click="login({email:email, password: password})"
+              @click="login({username, password})"
             >로그인
             </v-btn>
           </v-container>
@@ -49,7 +49,7 @@ import { mapActions, mapState } from 'vuex'
   export default{
     data(){
       return{
-        email:"",
+        username:"",
         password:"",
 
       }
