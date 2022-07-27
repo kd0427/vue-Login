@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{ userInfo.user_id }} 님 환영 합니다.
+    {{ userInfo.user_id }} 님 환영 합니다.ㅋㅋ
   </div>
 </template>
 <script>
